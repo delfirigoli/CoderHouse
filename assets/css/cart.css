@@ -64,16 +64,22 @@ td{
     background-color: rgb(219, 219, 219);
     border-radius: 0%;
     width: 100%;
-    color: rgb(160, 158, 158);
     text-transform: uppercase;
     transition:all 1s ease 0s;
     margin-top: 15px;
     padding: 10px;
   
   }
+
+  .back-cart a{
+    color: rgb(160, 158, 158);
+  }
   
   .back-cart:hover{
     background-color: rgb(190, 42, 42);
+    transition:all 1s ease 0s;
+  }
+  .back-cart:hover a{
     color: black;
     transition:all 1s ease 0s;
   }
@@ -83,4 +89,10 @@ td{
       text-transform: uppercase;
       font-size: 1.2em;
       padding-bottom: 9px;
+  }
+
+  @media (max-width:600px){
+    .product-image{
+    width: 250px;
+    }
   }

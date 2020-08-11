@@ -9,7 +9,7 @@ body{
 }
 .logo{
     color: rgb(0, 0, 0);
-    font-size: 4em;
+    font-size: 3em;
     font-family: 'Noto Sans JP', sans-serif;
     -webkit-transition: all 1s ease 0s;
     -moz-transition: all 1s ease 0s;
