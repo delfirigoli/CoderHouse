@@ -1,0 +1,27 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss assets/sass/main.scss assets/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "dev": "nodemon src"
+  },
+  "author": "delfinaRigoli",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.4"
+  },
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delfirigoli/CoderHouse.git"
+  },
+  "homepage": "https://github.com/delfirigoli/CoderHouse#readme"
+}

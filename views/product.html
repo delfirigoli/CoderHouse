@@ -56,22 +56,19 @@
                     <div class='col-2'>
                     <div class="previews">
                         <div class="row">
-                            <img src="Faltan Imagenes" style="width:100%" onclick="myFunction(this);">
+                            <img src="../assets/images/trash-1.jpeg" style="width:100%" onclick="myFunction(this);">
                         </div>
                         <div class="row">
-                            <img src="" style="width:100%" onclick="myFunction(this);">
-                        </div>
-                        <div class="row">
-                            <img src="" style="width:100%" onclick="myFunction(this);">
+                            <img src="../assets/images/trash-2.jpeg" style="width:100%" onclick="myFunction(this);">
                         </div>
                     </div>
                         <span class='zoom' id='ex1'>
-                            <img id="expandedImg" src="" width='700' height='650'/>
+                            <img id="expandedImg" src="../assets/images/trash-1.jpeg" width='700' height='650'/>
                         </span>
                     </div>
                 </div>
                 <div class='col-xl-4 col-md-12 info'>
-                <h1 class='name'>Nombre del Producto</h3>
+                <h1 class='name'>Buzo BA Trash</h3>
                     <h3 class='price'>$1500</h4>
                     <hr>
                     <div class='description'>
@@ -91,13 +88,29 @@
                             <div class="product-grid">
                                 <div class="product-image">
                                 <a href="#">
-                                        <img class="pic-1" src="FALTAN IMAGENES">
-                                        <img class="pic-2" src="FALTAN IMAGENES">
+                                        <img class="pic-1" src="../assets/images/art-1.jpeg">
+                                        <img class="pic-2" src="../assets/images/art-2.jpeg">
         
                                     </a>
                                 </div>
                                 <div class="product-content">
-                                <h3 class="title"><a>Nombre del Producto</a></h3>
+                                <h3 class="title"><a>Buzo Feel Art</a></h3>
+                                    <div class="price">$1250
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="product-grid">
+                                <div class="product-image">
+                                <a href="#">
+                                        <img class="pic-1" src="../assets/images/thunder-1.jpeg">
+                                        <img class="pic-2" src="../assets/images/thunder-2.jpeg">
+        
+                                    </a>
+                                </div>
+                                <div class="product-content">
+                                <h3 class="title"><a>Buzo Thunder</a></h3>
                                     <div class="price">$1000
                                     </div>
                                 </div>
@@ -107,29 +120,13 @@
                             <div class="product-grid">
                                 <div class="product-image">
                                 <a href="#">
-                                        <img class="pic-1" src="FALTAN IMAGENES">
-                                        <img class="pic-2" src="FALTAN IMAGENES">
+                                        <img class="pic-1" src="../assets/images/never-1.jpeg">
+                                        <img class="pic-2" src="../assets/images/never-2.jpeg">
         
                                     </a>
                                 </div>
                                 <div class="product-content">
-                                <h3 class="title"><a>Nombre del Producto</a></h3>
-                                    <div class="price">$1000
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="product-grid">
-                                <div class="product-image">
-                                <a href="#">
-                                        <img class="pic-1" src="FALTAN IMAGENES">
-                                        <img class="pic-2" src="FALTAN IMAGENES">
-        
-                                    </a>
-                                </div>
-                                <div class="product-content">
-                                <h3 class="title"><a>Nombre del Producto</a></h3>
+                                <h3 class="title"><a>Remera Never</a></h3>
                                     <div class="price">$1000
                                     </div>
                                 </div>
@@ -168,4 +165,12 @@
                 logo.className = 'logo nav-item'}
                 , 5500);});
     </script>
+    <script>
+    function myFunction(imgs) {
+      var expandImg = document.getElementById("expandedImg");
+      var zooms = document.getElement
+      expandImg.src = imgs.src;
+    }
+    </script>
+
 </html>
