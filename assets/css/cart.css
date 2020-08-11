@@ -1,0 +1,86 @@
+
+.card{
+    border-radius: 0%;
+}
+
+.actions{
+    margin:0px 5px 5px 0px;
+}
+h5{
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-size: 2.5em;
+    color: rgb(104, 104, 104);
+    font-family: 'Libre Barcode 39 Text', cursive;
+}
+.product-image{
+    width: 20%;
+    padding: 5px;
+    border: 1px solid rgba(165, 165, 165, 0.301);
+    margin-right: 15px;
+}
+thead{
+    border-bottom: solid;
+}
+td{
+    vertical-align: middle !important;
+    letter-spacing: 1.2px;
+}
+
+.price{
+    display: flex;
+    background-color: rgb(236, 236, 236);
+    border-radius: 0%;
+    height: 42px;
+    color: rgb(31, 31, 31);
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    padding: 23px;
+  }
+.price h4{margin: 0px;
+}
+
+.buy-cart{
+    background-color: black;
+    border-radius: 0%;
+    width: 100%;
+    border: rgba(231, 0, 0, 0.377) 2px solid;
+    color: white;
+    text-transform: uppercase;
+    transition:all 1s ease 0s;
+    margin-top: 15px;
+    padding: 10px;
+  
+  }
+  
+  .buy-cart:hover{
+    background-color: rgb(190, 42, 42);
+    color: black;
+    transition:all 1s ease 0s;
+  }
+
+  .back-cart{
+    background-color: rgb(219, 219, 219);
+    border-radius: 0%;
+    width: 100%;
+    color: rgb(160, 158, 158);
+    text-transform: uppercase;
+    transition:all 1s ease 0s;
+    margin-top: 15px;
+    padding: 10px;
+  
+  }
+  
+  .back-cart:hover{
+    background-color: rgb(190, 42, 42);
+    color: black;
+    transition:all 1s ease 0s;
+  }
+  .row{margin: 0px;}
+  
+  h3{
+      text-transform: uppercase;
+      font-size: 1.2em;
+      padding-bottom: 9px;
+  }
